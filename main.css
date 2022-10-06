@@ -1,0 +1,117 @@
+header,
+footer {
+    background-color: #5C8461;
+    width: 100%;
+    height: 10%;
+    padding: 1%;
+    margin-inline-end: 100px;
+    border-radius: 20px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+    opacity: 0.5;
+}
+
+.image:hover {
+    width: 325px;
+    height: 325px;
+    opacity: 1;
+}
+
+td,
+th {
+    padding: 10px;
+    text-align: left;
+    min-width: 200px;
+    
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select,
+button {
+    display: block;
+    margin: 15px 0px;
+    text-align: center;
+    min-width: 300px;
+    min-height: 100px;
+    background-color: #96906C;
+    font-size: 18px;
+    font-family: inherit;
+}
+
+button:hover {
+    display: block;
+    margin: 15px 0px;
+    text-align: center;
+    min-width: 309px;
+    min-height: 103px;
+    background-color: #5b5848;
+    font-size: 18px;
+    font-family: inherit;
+}
+
+
+form {
+    text-align: center;
+    margin: 0%, 50%;
+    display: inline-block;
+}
+
+
+body {
+    background-color: #327372;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    
+}
+
+header {
+    text-align: center;
+}
+
+a {
+    color: antiquewhite;
+}
+
+li {
+    display: inline-block;
+    background-color: #BD3031;
+    text-align: center;
+    height: 20px;
+    width: 100px;
+    padding: 2.5%;
+    border-radius: 20px;
+}
+
+li:hover {
+    display: inline-block;
+    background-color: #521313;
+    text-align: center;
+    height: 20px;
+    width: 100px;
+    padding: 2%;
+}
+
+p,
+table {
+    background-color: #96906C;
+    padding: 2.5%;
+    margin: 5%;
+    border-radius: 20px;
+}
+
+h2 {
+    background-color: #CF8E55;
+    padding: 2.5%;
+    margin: 2.5%;
+    border-radius: 20px;
+}
